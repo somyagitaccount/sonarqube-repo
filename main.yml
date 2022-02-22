@@ -16,28 +16,28 @@
       name: openjdk-11-jdk
       state: present    
 
-  # - name: install ansible
-  #   apt:
-  #     name: ansible
-  #     state: present
+  - name: install ansible
+    apt:
+      name: ansible
+      state: present
 
-  # - name: install python3
-  #   apt:
-  #     name: python3
-  #     state: present
-  # - name: install php
-  #   apt:
-  #     name: php
-  #     state: present
+  - name: install python3
+    apt:
+      name: python3
+      state: present
+  - name: install php
+    apt:
+      name: php
+      state: present
 
-  # - name: install pip3
-  #   apt:
-  #     name: python3-pip
-  #     state: present
+  - name: install pip3
+    apt:
+      name: python3-pip
+      state: present
 
-  # - name: install lxml
-  #   pip:
-  #     name: lxml 
+  - name: install lxml
+    pip:
+      name: lxml 
 
   - name: install unzip
     apt: 
